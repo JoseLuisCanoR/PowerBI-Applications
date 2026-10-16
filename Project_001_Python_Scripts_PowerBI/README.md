@@ -1,50 +1,87 @@
-# Project 001 - Python Scripts v2
+# Manufacturing Performance Analytics
+### Project 001 | Power BI, Python & Manufacturing Operations
 
-This version is designed for VS Code, PowerShell and CMD.
+## Overview
 
-## Folder structure
+This project demonstrates the application of data analytics
+to manufacturing operations, combining operational KPIs,
+equipment reliability analysis, downtime analysis, and
+production performance monitoring.
 
-Keep the folders like this:
+The objective is to transform manufacturing data into
+actionable insights that support operational decision-making
+and continuous improvement.
 
-Project_001/
-  etl_manufacturing.py
-  kpi_engine.py
-  project_001_manufacturing_performance/
-    dim_date.csv
-    dim_machine.csv
-    dim_product.csv
-    dim_shift.csv
-    dim_downtime.csv
-    fact_production.csv
-    fact_downtime.csv
-    fact_maintenance.csv
+## Business Objectives
 
-The scripts automatically use the folder where the script is located
-as the project root. Your PowerShell current directory does not matter.
+- Monitor Overall Equipment Effectiveness (OEE).
+- Analyze equipment availability, performance, and quality.
+- Evaluate equipment reliability using MTBF and MTTR.
+- Identify major downtime contributors using Pareto analysis.
+- Analyze production performance across machines, shifts,
+  products, and time periods.
+- Support data-driven maintenance and operational decisions.
 
-## Run
+## Technology Stack
 
-python etl_manufacturing.py
+- Microsoft Power BI
+- Python
+- Pandas
+- CSV datasets
+- Excel
+- SQLite
 
-Then:
+## Project Components
 
-python kpi_engine.py
+### 1. Power BI Dashboard
 
-## Outputs
+The dashboard includes four analytical views:
 
-project_001_ETL/
-  *_clean.csv
-  manufacturing_performance_clean.db
-  ETL_Validation_Detail.csv
-  ETL_Validation_Report.md
+- Executive Dashboard
+- Machine Reliability & Loss Analysis
+- Downtime & Production Losses
+- Production Analysis
 
-project_001_KPI/
-  plant_kpi.csv
-  kpi_by_machine.csv
-  reliability_by_machine.csv
-  kpi_by_month.csv
-  kpi_by_shift.csv
-  kpi_by_line.csv
-  kpi_by_product.csv
-  downtime_by_category.csv
-  manufacturing_kpi_engine.db
+### 2. Python ETL
+
+The ETL scripts prepare and validate manufacturing datasets
+for downstream analysis.
+
+### 3. Manufacturing KPI Engine
+
+The KPI engine generates performance and reliability
+indicators at different levels of analysis.
+
+## Key Performance Indicators
+
+- Overall Equipment Effectiveness (OEE)
+- Availability
+- Performance
+- Quality
+- Mean Time Between Failures (MTBF)
+- Mean Time To Repair (MTTR)
+- Total Downtime
+- Planned and Unplanned Downtime
+
+## Repository Structure
+
+- `Project_001_Manufacturing_Performance_Dashboard.pbix`
+- `etl_manufacturing.py`
+- `kpi_engine.py`
+- `project_001_manufacturing_performance/`
+- `project_001_ETL/`
+- `project_001_KPI/`
+
+## Business Value
+
+This project illustrates how manufacturing data can be
+structured and analyzed to identify performance gaps,
+prioritize equipment losses, and support continuous
+improvement initiatives.
+
+## Author
+
+Jose Luis Cano Romero
+
+Manufacturing Operations | Maintenance & Reliability |
+Operational Excellence | Data Analytics
