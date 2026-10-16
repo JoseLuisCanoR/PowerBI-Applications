@@ -1,0 +1,23 @@
+Check,Status,Issue_Count,Detail
+Critical nulls - production,PASS,0,Critical production fields populated
+Critical nulls - downtime,PASS,0,Critical downtime fields populated
+Critical nulls - maintenance,PASS,0,Critical maintenance fields populated
+Good + Scrap = Total,PASS,0,Production unit reconciliation
+Run time <= planned time,PASS,0,Operating time cannot exceed planned time
+Availability range,PASS,0,Expected range 0-1
+Quality range,PASS,0,Expected range 0-1
+Scrap_Rate range,PASS,0,Expected range 0-1
+OEE range,PASS,0,Expected range 0-1.1
+Production -> Machine,PASS,0,Referential integrity
+Production -> Product,PASS,0,Referential integrity
+Production -> Shift,PASS,0,Referential integrity
+Downtime -> Machine,PASS,0,Referential integrity
+Downtime <= 240 min per machine/shift/day,PASS,0,Validation threshold
+Duplicate rows - dim_date,PASS,0,No duplicate rows expected
+Duplicate rows - dim_machine,PASS,0,No duplicate rows expected
+Duplicate rows - dim_product,PASS,0,No duplicate rows expected
+Duplicate rows - dim_shift,PASS,0,No duplicate rows expected
+Duplicate rows - dim_downtime,PASS,0,No duplicate rows expected
+Duplicate rows - fact_production,PASS,0,No duplicate rows expected
+Duplicate rows - fact_downtime,PASS,0,No duplicate rows expected
+Duplicate rows - fact_maintenance,PASS,0,No duplicate rows expected

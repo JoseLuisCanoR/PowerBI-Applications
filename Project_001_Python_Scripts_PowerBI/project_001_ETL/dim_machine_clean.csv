@@ -1,0 +1,21 @@
+Machine_ID,Machine_Name,Line_ID,Process,Machine_Type,Criticality,Install_Date
+M001,Automatic Assembly 01,L01,Assembly,Automatic Assembly,Medium,2021-02-24
+M002,Automatic Assembly 02,L01,Assembly,Automatic Assembly,Medium,2021-12-23
+M003,Automatic Assembly 03,L01,Assembly,Automatic Assembly,High,2021-02-24
+M004,Automatic Assembly 04,L01,Assembly,Automatic Assembly,Medium,2022-12-27
+M005,Automatic Assembly 05,L01,Assembly,Automatic Assembly,Medium,2021-02-02
+M006,Automatic Assembly 06,L02,Assembly,Automatic Assembly,High,2023-01-23
+M007,Automatic Assembly 07,L02,Assembly,Automatic Assembly,Medium,2022-05-27
+M008,Automatic Assembly 08,L02,Assembly,Automatic Assembly,High,2021-12-03
+M009,Automatic Assembly 09,L02,Assembly,Automatic Assembly,High,2022-01-26
+M010,Automatic Assembly 10,L02,Assembly,Automatic Assembly,Medium,2021-05-16
+M011,CNC Machining 11,L03,Machining,CNC Machining,Medium,2022-11-26
+M012,CNC Machining 12,L03,Machining,CNC Machining,High,2021-12-30
+M013,CNC Machining 13,L03,Machining,CNC Machining,Medium,2021-06-28
+M014,CNC Machining 14,L03,Machining,CNC Machining,High,2021-08-06
+M015,CNC Machining 15,L03,Machining,CNC Machining,High,2021-02-10
+M016,Final Assembly 16,L04,Final Assembly,Final Assembly,Medium,2021-02-11
+M017,Final Assembly 17,L04,Final Assembly,Final Assembly,Medium,2021-07-07
+M018,Final Assembly 18,L04,Final Assembly,Final Assembly,High,2022-09-24
+M019,Final Assembly 19,L04,Final Assembly,Final Assembly,Medium,2023-02-24
+M020,Final Assembly 20,L04,Final Assembly,Final Assembly,Medium,2021-10-17

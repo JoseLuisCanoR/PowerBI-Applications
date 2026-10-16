@@ -1,0 +1,15 @@
+Downtime_Category,Failure_Code,Failure_Description
+Mechanical,MECH,Bearing failure
+Mechanical,MECH,Conveyor failure
+Mechanical,MECH,Alignment
+Electrical,ELEC,Electrical fault
+Electrical,ELEC,Motor failure
+Sensor,SENS,Sensor failure
+Material,MAT,Material shortage
+Material,MAT,Material jam
+Quality,QUAL,Quality hold
+Quality,QUAL,Rework adjustment
+Changeover,CHG,Product changeover
+Planned Maintenance,PM,Scheduled PM
+Unplanned Maintenance,UPM,Corrective repair
+Other,OTH,Minor adjustment

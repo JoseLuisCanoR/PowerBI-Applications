@@ -1,0 +1,11 @@
+Product_ID,Product_Name,Product_Family,Ideal_Cycle_Time_Sec
+P001,Product 01,Standard,18
+P002,Product 02,Premium,22
+P003,Product 03,Compact,26
+P004,Product 04,Heavy Duty,30
+P005,Product 05,Standard,34
+P006,Product 06,Premium,38
+P007,Product 07,Compact,42
+P008,Product 08,Heavy Duty,48
+P009,Product 09,Standard,55
+P010,Product 10,Premium,62
